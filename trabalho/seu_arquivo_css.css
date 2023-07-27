@@ -1,0 +1,63 @@
+
+html{
+
+    background-image: url("socr.jpg");
+    background-size: cover; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+  }
+
+  element.style {
+    width: 500px;
+
+}
+  #app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  blockquote {
+    border-left: 4px solid #333;
+    padding-left: 20px;
+  }
+
+  #quoteDisplay {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  #authorDisplay {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  #newQuoteButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #newQuoteButton:hover {
+    background-color: #444;
+  }
